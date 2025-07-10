@@ -1,0 +1,76 @@
+.nav-section a{
+    background-color:dimgray;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-section a:hover{
+    background-color:rgb(191, 191, 191);
+}
+.title,
+.information legend,
+.menu h2,
+.menu legend{
+    background-color: rgb(93, 137, 154);
+    text-align: center;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.title h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.title p{
+    color: aliceblue;
+    font-size: x-large;
+}
+main{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.information,
+.menu{
+    background-color: darkgray;
+    border-radius: 6px;
+}
+.information input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    display: flex;
+}
+.information label,
+.Pizza-specs label{
+    font-size: 24px;
+}
+input[type="submit"],
+input[type="reset"]{
+    margin: 10px 5px;
+    font-size: 20px;
+    background-color: darkgray;
+    padding: 12px 16px ;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 48%;
+    box-shadow: 0 10px  rgb(105, 105, 105);
+    transition: 0.33s;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    cursor:grab;
+}
+input[type="submit"]:active,
+input[type="reset"]:active{
+    transform: translateY(5px);
+    box-shadow: 0 5px;
+}

@@ -3,35 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience the taste of tradition and modern flavors in one place">
+    <meta name="author" content="Ahmed usama">
+    <meta name="keywords" content="food,fast-food,Beef,Restaurant,chicken">
+    <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <section>
+        <nav class="nav-section">
             <span>
                 <a href="#">Main</a>
                 <a href="#">Make an Order</a>
                 <a href="#">Contact us</a>
             </span>
-        </section>
-        <section>
+        </nav>
+        <section class="title">
             <h1>Black Goose Bistro | Pizza-on-Demand</h1>
             <p>Our 12" wood-fired pizza are available for delivery, build your custom pizza and we will deliver it within an hour .</p>
         </section>
     </header>
     <main>
-        <section>
+        <section class="information">
             <form action="">
             <fieldset>
             <legend>Your Information</legend>
             <label for="name">name</label>
-            <input type="text" id="name"><br>
+            <input type="text" id="name" placeholder="name">
             <label for="address">address</label>
-            <input type="text" id="address"><br>
+            <input type="text" id="address" placeholder="address">
             <label for="tele_num">Telephone Number</label>
-            <input type="tel" id="tele_num"><br>
+            <input type="tel" id="tele_num" placeholder="Telephone Number">
             <label for="email">Email</label>
-            <input type="email" id="email"><br>
+            <input type="email" id="email" placeholder="email">
             <div>
                 <label for="Delivery">Delivery Instruction</label>
             </div>
@@ -39,10 +43,10 @@
             </fieldset>
         </form>
         </section>
-        <section>
+        <section class="menu">
             <h2>Design Your Dream Pizza: </h2>
             <form action="">
-            <fieldset>
+            <fieldset class="Pizza-specs">
                 <legend>Pizza specs</legend>
                 <fieldset>
                 <legend>Crust (choose one)</legend>
@@ -55,6 +59,7 @@
                 <input type="radio" name="Pizza" id="Gluten-free" value="Gluten">
                 <label for="Gluten-free">Gluten-free</label>
                 </fieldset>
+
                 <fieldset >
                     <legend>Toppings (choose as many as you want)</legend>
                     <input type="checkbox" name="addons" id="red-sauce" value="red sauce">
@@ -75,11 +80,10 @@
                 <fieldset>
                     <legend>Number</legend>
                     <label for="count"> How many pizzas:</label>
-                    <input type="number" value="number">
+                    <input type="number" value="number" max="10" min="1">
                 </fieldset>
             </fieldset>
         </section>
-        <hr>
         <input type="submit" value="Bring me a pizza!">
         <input type="reset" value="Reset">
         </form>
